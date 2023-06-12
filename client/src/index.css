@@ -1,0 +1,76 @@
+
+
+@font-face{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+}
+*{
+  outline: none;
+}
+body{
+  margin: 0;
+  overflow-y: overlay;
+  font-family:"Poppins Regular" ;
+-webkit-font-smoothing:antialised ;
+-moz-osx-font-smoothing:grayscale;
+}
+code{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::-webkit-scrollbar{
+  width: 6px !important;
+  height: 6px !important;
+}
+
+body ::-webkit-scrollbar-thumb{
+  background-color: darkgray;
+}
+::-webkit-scrollbar-thumb{
+  background-color: rgb(53, 38, 38,);
+}
+::-webkit-scrollbar-track{
+  background-color: cadetblue(0, 0%,100%,0.1);
+}
+.btn{
+  border-radius: 50px;
+  padding: 14px 0;
+  width: 160px;
+  cursor: pointer;
+  transition: 0.2s;
+  font-family: "Poppins semiBold";
+}
+.btn:active{
+  transform: translateY();
+}
+.primary-btn {
+  color: var(--white);
+  border: 2px solid #efd9d2cf;
+  font-size: 12px;
+  background-color: rgb(12, 27, 27);
+}
+.primary-btn:hover{
+  color: aliceblue;
+  border: 2px solid #ff5823;
+  background-color: darkcyan;
+}
+
+.highlighted-btn{
+  color: var(--white);
+font-size: 12px;
+background-color: coral;}
+
+@media only screen and (max-width: 568px) {
+  .highlighted-btn{
+    z-index: -900;
+  }
+}
+  
+.red-borrder{
+  border: 1px solid var(--error-message) !important;
+}
+.fade-in{
+  opacity:0;
+  transform: translateY(80px);
+  transition: all0.8s ease;
+}

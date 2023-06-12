@@ -1,0 +1,8 @@
+.home-container{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    min-height: 670px;
+    background-image: url("../../../../assests/Home/control-1920x1080-e3-2018-screenshot-4k-19277.jpg");
+
+}
